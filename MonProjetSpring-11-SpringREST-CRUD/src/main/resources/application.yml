@@ -1,0 +1,15 @@
+server:
+  port: 7070   
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: password
+    url: jdbc:mysql://localhost:3306/BanqueDB
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 10
+  jpa:
+    show-sql: true
+
+
